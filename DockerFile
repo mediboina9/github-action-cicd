@@ -1,0 +1,8 @@
+
+
+
+
+FROM openjdk:11
+ADD target/github-action-cicd.jar github-action-cicd.jar
+Expose 8085
+ENTRYPOINT ["java","-jar","/github-action-cicd.jar"]
