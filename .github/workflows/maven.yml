@@ -30,6 +30,6 @@ jobs:
         image: mediboina9/sivasatyanarayanamediboina9
         registry: docker.io
         username: ${{secrets.DOCKER_USERNAME}}
-        password: ${{secreats.DOCKER_PASSWORD}}
+        password: ${{secrets.DOCKER_PASSWORD}}
         
     
