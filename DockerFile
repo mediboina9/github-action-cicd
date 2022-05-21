@@ -1,7 +1,4 @@
 
 
-FROM fabric8/java-alpine-openjdk11-jre
-WORKDIR /usr/src/app
-COPY target/github-action-cicd.jar ./github-action-cicd.jar
-EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "github-action-cicd.jar"]
+FROM ubuntu:latest
+CMD echo  "Hello jar"
